@@ -106,8 +106,9 @@ dist
 # MacOS
 .DS_Store
 
-# Gradle
+# Android / Gradle
 .gradle/
+local.properties
 
 # IntelliJ
 .idea/
