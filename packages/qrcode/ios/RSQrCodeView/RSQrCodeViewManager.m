@@ -15,9 +15,9 @@
   return [[RSQrCode alloc] init];
 }
 
-RCT_CUSTOM_VIEW_PROPERTY(color, UIColor, RSQrCode)
+RCT_CUSTOM_VIEW_PROPERTY(color, id, RSQrCode)
 {
-  [view setColor:[RCTConvert UIColor:json]];
+  [view setColor:[CIColor colorWithCGColor:[RCTConvert UIColor:json].CGColor]];
 }
 
 RCT_CUSTOM_VIEW_PROPERTY(data, NSString*, RSQrCode)

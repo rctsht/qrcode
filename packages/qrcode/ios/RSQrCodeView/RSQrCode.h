@@ -9,7 +9,7 @@
 
   - (UIImage *)generateQrCode;
 
-  -(void)setColor:(UIColor *)color;
+  -(void)setColor:(CIColor *)color;
   -(void)setData:(NSData *)data;
   -(void)setErrorCorrectionLevel:(NSString *)errorCorrectionLevel;
 

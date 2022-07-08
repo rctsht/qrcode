@@ -14,9 +14,9 @@
   return self;
 }
 
--(void)setColor:(UIColor *)color
+-(void)setColor:(CIColor *)color
 {
-  _color = [[CIColor alloc] initWithColor:color];
+  _color = color;
   [self setNeedsLayout];
 }
 
