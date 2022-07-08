@@ -1,0 +1,42 @@
+{
+  "name": "@rctsht/qrcode",
+  "version": "0.0.2",
+  "description": "QR code generator library for React Native",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "android/gradle/wrapper",
+    "android/src/main",
+    "android/build.gradle",
+    "ios/RSQRCodeView",
+    "ios/RSQRCodeView.xcodeproj",
+    "!ios/RSQRCodeView.xcodeproj/project.xcworkspace/xcuserdata",
+    "!ios/RSQRCodeView.xcodeproj/xcuserdata",
+    "RSQrCodeView.podspec",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "repository": "https://github.com/rctsht/qrcode",
+  "author": "Michael Mason <mjmasn@gmail.com> (https://github.com/mjmasn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rctsht/qrcode/issues"
+  },
+  "homepage": "https://github.com/rctsht/qrcode#readme",
+  "devDependencies": {
+    "@types/react-native": "^0.69.2",
+    "react-native": "^0.69.1"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "dependencies": {}
+}
