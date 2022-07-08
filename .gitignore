@@ -105,3 +105,12 @@ dist
 
 # MacOS
 .DS_Store
+
+# Gradle
+.gradle/
+
+# IntelliJ
+.idea/
+
+# XCode
+xcuserdata/
