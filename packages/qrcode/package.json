@@ -16,7 +16,8 @@
     "RSQrCodeView.podspec",
     "!**/__tests__",
     "!**/__fixtures__",
-    "!**/__mocks__"
+    "!**/__mocks__",
+    "README.md"
   ],
   "keywords": [
     "react-native",
