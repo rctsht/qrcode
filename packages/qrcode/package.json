@@ -1,6 +1,6 @@
 {
   "name": "@rctsht/qrcode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "QR code generator library for React Native",
   "react-native": "src/index",
   "source": "src/index",
